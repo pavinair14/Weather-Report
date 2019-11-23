@@ -1,0 +1,13 @@
+@import '../../Styles/themes.scss';
+
+.weatherlist{
+    background:$color-lightest;
+    padding: 10px 20px;
+    border: 1px solid $button-color;
+    div{
+        display: inline-block;
+        &.weather-details{
+            float: right;
+        }
+    }
+}
